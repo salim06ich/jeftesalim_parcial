@@ -1,0 +1,242 @@
+/* styles.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header y Navegación */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #818d92da; 
+    padding: 10px 30px;
+    box-shadow: 0px 2px 5px #0000004d;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav li a {
+    color: #fff;
+    font-family: 'Lora', sans-serif; 
+    text-transform: uppercase; 
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav li a:hover {
+    color: #000;
+    background-color: #FF495C;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+.iconos a {
+    color: #fff;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.iconos a:hover {
+    color: #FF495C;
+}
+
+/* Sección Principal */
+.principal {
+    background-image: url('../imagen/pexels-guilherme-xac-2734805-5287985.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenidouno {
+    text-align: center;
+    color: #fff;
+    background: #818d927a;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contenidouno h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ffcc00;
+}
+
+.contenidouno h2 {
+    font-family: 'Lora', sans-serif;
+    font-size: 30px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.contenidouno p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.button {
+    background-color: #ffcc00;
+    color: #000;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.button:hover {
+    background-color: #FF495C;
+    color: #ffffff;
+}
+
+/* Banner Sección */
+.banner {
+    background-color: #222;
+    padding: 50px;
+    text-align: center;
+    background-image: url('../imagen/pexels-skitterphoto-9378.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner h2 {
+    font-family: 'Lora', sans-serif;
+    font-size: 35px;
+    color: #FF495C;
+    margin-bottom: 30px;
+}
+
+.figuras a {
+    font-size: 40px;
+    color: #ffffff;
+    margin: 0 20px;
+}
+
+.figuras a:hover {
+    color: #FFCC00;
+}
+
+/* Galería */
+.galeria {
+    padding: 50px 30px;
+    text-align: center;
+    background-color: #818D92;
+}
+
+.galeria h2 {
+    font-family: 'Lora', sans-serif;
+    font-size: 35px;
+    color: #ffcc00;
+}
+
+.galeria p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+
+.contenidotres {
+    display: flex;
+    justify-content: space-between;
+}
+
+.columna {
+    width: 30%;
+}
+
+.columna img {
+    width: 100%;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    border: 5px solid #ffdb4b;
+}
+
+.columna p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.columna a {display: inline-block;
+    padding: 10px 30px;
+    background-color: #FFCC00;
+    color: #000000;
+    text-decoration: none;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+
+.columna a:hover {
+    background-color: #FF495C;
+    color: #ffffff;
+}
+
+/* Footer */
+.footer {
+    background-color: #256EFF;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+.footer h3 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer .social-icons1 {
+    margin-bottom: 10px;
+}
+
+.footer .social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer .social-icons li a {
+    color: #ffcc00;
+}
+
+.footer .social-icons li a:hover {
+    color: #FF495C;
+}   
+
+.footer h4 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+}
